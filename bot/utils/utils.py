@@ -3,7 +3,7 @@ import random
 import asyncio
 import logging
 from urllib.parse import urljoin
-import ffprobe
+import .ffprobe
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 

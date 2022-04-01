@@ -5,3 +5,4 @@ dnspython
 async-timeout
 aiohttp
 ffmpeg
+ffprobe

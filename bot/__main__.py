@@ -1,7 +1,8 @@
 import logging
-
+import os
 from .screenshotbot import ScreenShotBot
 from .config import Config
+os.system("mkdir ffprobe")
 
 if __name__ == "__main__":
 

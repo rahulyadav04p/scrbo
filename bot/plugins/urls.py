@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from ..utils import Utilities
 from ..screenshotbot import ScreenShotBot
 from ..config import Config
-import ffprobe
+from .ffprobe import FFProbe
 
 
 @ScreenShotBot.on_message(

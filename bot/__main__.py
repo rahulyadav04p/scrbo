@@ -1,5 +1,6 @@
 import logging
-import os
+import sys
+sys.path.append('/path/to/ffmpeg')
 from .screenshotbot import ScreenShotBot
 from .config import Config
 
